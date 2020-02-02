@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		428C90A023E71CA1003378E4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 428C909F23E71CA1003378E4 /* main.c */; };
+		428C90A823E71E02003378E4 /* jsoner.c in Sources */ = {isa = PBXBuildFile; fileRef = 428C90A723E71E02003378E4 /* jsoner.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		428C909C23E71CA1003378E4 /* JSONER2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSONER2; sourceTree = BUILT_PRODUCTS_DIR; };
 		428C909F23E71CA1003378E4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		428C90A623E71E02003378E4 /* jsoner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jsoner.h; sourceTree = "<group>"; };
+		428C90A723E71E02003378E4 /* jsoner.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = jsoner.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				428C909F23E71CA1003378E4 /* main.c */,
+				428C90A623E71E02003378E4 /* jsoner.h */,
+				428C90A723E71E02003378E4 /* jsoner.c */,
 			);
 			path = JSONER2;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428C90A823E71E02003378E4 /* jsoner.c in Sources */,
 				428C90A023E71CA1003378E4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
